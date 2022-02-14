@@ -3,18 +3,15 @@
 ## Dist_AHR
 
 Distributed_Huber.R - 
+Implements the distributed adaptive huber regression ([Luo, et al., 2022](https://doi.org/10.1016/j.csda.2021.107419)) across local servers for both low and high-dimensional settings. Both asymptotic normal based inference and bootstrap inference are supported.
 
+In low-dimension, it employs Gradient-Descent with Barzilai-Borwein update to optimize the shifted local loss. In high-dimension, iterative local adaptive majorize-minimization algorithm, together with cross validation, is implemented to find the optimal solution.
 
 ## Simulation
 
-simulation_high_dim.R - 
+simulation_low_dim.R - simulates various low-dimensional settings considered in the article to compare the newly proposed dist-AHR against extant methods.
 
-simulation_low_dim.R - 
-
-Plots_and_Tables.R - 
-
-
-
+simulation_high_dim.R - simulates various high-dimensional settings considered in the article to compare the newly proposed dist-AHR against extant methods.
 
 ## Authors
 
