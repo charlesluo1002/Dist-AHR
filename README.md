@@ -18,7 +18,7 @@ Plots_and_Tables.R -
 
 ## Authors
 
- Jiyu Luo <jil130>, Qiang Sun <qsun@utstat.toronto.edu> and Wen-Xin Zhou <wez243@ucsd.edu>
+ Jiyu Luo <jil130@ucsd.edu>, Qiang Sun <qsun@utstat.toronto.edu> and Wen-Xin Zhou <wez243@ucsd.edu>
 
 
 ## Reference
